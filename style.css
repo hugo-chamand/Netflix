@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    background-color: #141414;
+    justify-content: center;
+}
+
+
+main {
+    width: 100%;
+}
+
+.question {
+    display: flex;
+    width: 70%;
+    margin: 200px auto 0 auto;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+h1 {
+    font-size: 40px;
+    color: #ffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+}
+
+.profils {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.profile {
+    width: 17%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile:last-child {
+    margin-right: 0;
+}
+
+.profile span {
+    color: #807b6f;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: 100;
+}
+
+.boutton {
+    margin: 80px auto 0 auto;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+button {
+    width: 160px;
+    height: 30px;
+    color: #807b6f;
+    background-color: #141414;
+    border: #4a4a4a solid 2px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
